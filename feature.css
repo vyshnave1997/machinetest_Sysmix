@@ -1,0 +1,914 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.logo img {
+    max-width: 130px;
+    margin-left: 1rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-right: 1.5rem;
+}
+
+nav ul li {
+    margin-left: 20px;
+    margin-right: 1.5rem;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+/* Hero Section */
+.feature-hero {
+   
+.feature-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff; /* Matching the background color */
+    padding: 1rem;
+    border-radius: 10px;
+    color: rgb(0, 0, 0); /* Ensure text is white for contrast */
+  }
+  
+  .feature-hero .feature-2-content {
+    max-width: 60%; /* Adjust max-width as needed */
+    margin-bottom: 5rem;
+    padding-left: 20px;
+  }
+  
+  .feature-hero .feature-2-content h3 {
+    font-size: 3rem; /* Adjust font size as needed */
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    margin: 2rem;
+   
+  }
+  
+  .feature-hero .feature-2-content p {
+    font-size: 1.7em; /* Adjust font size as needed */
+    line-height: 1.8;
+    margin-top: 2rem;
+    margin: 2rem;
+  }
+  
+  .feature-hero img {
+    width: 50%; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 3rem;
+    border-radius: 10px;
+    margin-left: 2.5rem; /* Add margin to separate text and image */
+    order: 2; /* Ensure the image is positioned after the text */
+  }
+}
+.feature-1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: auto;
+    background-color: #E8E5DA /* Background color for features section */
+  }
+  
+  .feature-1 img {
+    display: flex;
+    align-items: flex-start;
+    justify-items: flex-start;
+    width: 20rem;
+    height: 70%;
+    padding: 5px;
+    margin-top: 6rem;
+    margin-left: 25rem;
+    margin-bottom: 2rem;
+   
+    box-shadow: 0px 0px 0px 9 rgba(187, 184, 184, 0);
+  }
+  
+  .feature-1-content {
+    max-width: 800px;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    color:#5D84AA;
+  }
+  
+  .feature-1-content h3 {
+    font-size: 2.5rem;
+    justify-items: left;
+    
+    margin-top: 20px;
+  }
+  
+  .feature-1-content p {
+    color:#5D84AA;
+    margin-top: 5px;
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color:#5D84AA;
+  }
+  .feature-1-content button {
+    background-color: #4caf50;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 0.80rem 1.5rem;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 1rem;
+    margin-left: 0; /* Align button to the left */
+    font-weight: bold;
+    margin-top: 10;
+  }
+  .feature-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F4D585; /* Matching the background color */
+    padding: 1rem;
+    border-radius: 10px;
+    color:#3B546E; /* Ensure text is white for contrast */
+  }
+  
+  .feature-2 .feature-2-content {
+    max-width: 50%; /* Adjust max-width as needed */
+    margin-bottom: 5rem;
+    margin-left: 9rem;
+    margin-top: 5rem;
+    padding-left: 20px;
+  }
+  
+  .feature-2 .feature-2-content h3 {
+    color:#3B546E;
+    font-size: 2rem; /* Adjust font size as needed */
+    margin-bottom: 1rem;
+    margin: 2rem;
+    margin-left: 9rem;
+   
+  }
+  
+  .feature-2 .feature-2-content p {
+    font-size: 1.2em; /* Adjust font size as needed */
+    line-height: 2;
+    margin-top: 2rem;
+    margin-left: 9rem;
+  }
+  
+  .feature-2 img {
+    width: 21rem; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 3rem;
+    border-radius: 10px;
+    
+    margin-right: 23rem; /* Add margin to separate text and image */
+    order: 2; /* Ensure the image is positioned after the text */
+  }
+  
+  .feature-3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: auto;
+    background-color: #EAD0DD /* Background color for features section */
+  }
+  
+  .feature-3 img {
+    display: flex;
+    align-items: flex-start;
+    justify-items: flex-start;
+    width: 20rem;
+    height: 70%;
+    padding: 5px;
+    margin-top: 6rem;
+    margin-left: 25rem;
+    margin-bottom: 2rem;
+   
+    box-shadow: 0px 0px 0px 9 rgba(148, 109, 109, 0.671);
+  }
+  
+  .feature-3-content {
+    max-width: 800px;
+    margin-left: 5rem;
+    margin-top: 8rem;
+    color:#4f5f6e;
+  }
+  
+  .feature-3-content h3 {
+    font-size: 2rem;
+    justify-items: left;
+    
+    margin-top: 5px;
+  }
+  
+  .feature-3-content p {
+    color:#2c2e30;
+    margin-top: 5px;
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color:#738291;
+  }
+  .feature-3-content button {
+    background-color: #4caf50;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 0.80rem 1.5rem;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 1rem;
+    margin-left: 0; /* Align button to the left */
+    font-weight: bold;
+    margin-top: 10;
+  }
+  .feature-4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F4D6BB; /* Matching the background color */
+    padding: 1rem;
+    border-radius: 10px;
+    color:#3B546E; /* Ensure text is white for contrast */
+  }
+  
+  .feature-4 .feature-4-content {
+    max-width: 50%; /* Adjust max-width as needed */
+    margin-bottom: 5rem;
+    margin-left: 9rem;
+    margin-top: 5rem;
+    padding-left: 20px;
+  }
+  
+  .feature-4  .feature-4-content h3 {
+    color:#3B546E;
+    font-size: 2rem; /* Adjust font size as needed */
+    margin-bottom: 1rem;
+    margin: 2rem;
+    margin-left: 9rem;
+   
+  }
+  
+  .feature-4  .feature-4-content p {
+    font-size: 1.2em; /* Adjust font size as needed */
+    line-height: 2;
+    margin-top: 2rem;
+    margin-left: 9rem;
+  }
+  
+  .feature-4  img {
+    width: 21rem; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 3rem;
+    border-radius: 10px;
+    
+    margin-right: 23rem; /* Add margin to separate text and image */
+    order: 2; /* Ensure the image is positioned after the text */
+  } 
+  .feature-5 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: auto;
+    background-color: #FFC17E /* Background color for features section */
+  }
+  
+  .feature-5 img {
+    display: flex;
+    align-items: flex-start;
+    justify-items: flex-start;
+    width: 20rem;
+    height: 70%;
+    padding: 5px;
+    margin-top: 6rem;
+    margin-left: 25rem;
+    margin-bottom: 2rem;
+   
+    box-shadow: 0px 0px 0px 9 rgba(187, 184, 184, 0);
+  }
+  
+  .feature-5-content {
+    max-width: 800px;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    color:#2e465e;
+  }
+  
+  .feature-5-content h3 {
+    font-size: 2rem;
+    justify-items: left;
+    
+    margin-top: 20px;
+  }
+  
+  .feature-5-content p {
+    color:#5D84AA;
+    margin-top: 5px;
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color:#334e69;
+  }
+  .feature-5-content button {
+    background-color: #4caf50;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 0.80rem 1.5rem;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 1rem;
+    margin-left: 0; /* Align button to the left */
+    font-weight: bold;
+    margin-top: 10;
+  }
+  .feature-6 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FEB49C; /* Matching the background color */
+    padding: 1rem;
+    border-radius: 10px;
+    color:#3B546E; /* Ensure text is white for contrast */
+  }
+  
+  .feature-6 .feature-6-content {
+    max-width: 50%; /* Adjust max-width as needed */
+    margin-bottom: 5rem;
+    margin-left: 9rem;
+    margin-top: 5rem;
+    padding-left: 20px;
+  }
+  
+  .feature-6 .feature-6-content h3 {
+    color:#3B546E;
+    font-size: 2rem; /* Adjust font size as needed */
+    margin-bottom: 1rem;
+    margin: 2rem;
+    margin-left: 9rem;
+   
+  }
+  
+  .feature-6 .feature-6-content p {
+    font-size: 1.2em; /* Adjust font size as needed */
+    line-height: 2;
+    margin-top: 2rem;
+    margin-left: 9rem;
+  }
+  
+  .feature-6 img {
+    width: 21rem; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 3rem;
+    border-radius: 10px;
+    
+    margin-right: 23rem; /* Add margin to separate text and image */
+    order: 2; /* Ensure the image is positioned after the text */
+  }
+  .feature-7 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: auto;
+    background-color: #EFB4CC /* Background color for features section */
+  }
+  
+  .feature-7 img {
+    display: flex;
+    align-items: flex-start;
+    justify-items: flex-start;
+    width: 20rem;
+    height: 70%;
+    padding: 5px;
+    margin-top: 6rem;
+    margin-left: 25rem;
+    margin-bottom: 2rem;
+   
+    box-shadow: 0px 0px 0px 9 rgba(187, 184, 184, 0);
+  }
+  
+  .feature-7-content {
+    max-width: 800px;
+    margin-left: 5rem;
+    margin-top: 7rem;
+    color:#2e465e;
+  }
+  
+  .feature-7-content h3 {
+    font-size: 2rem;
+    justify-items: left;
+    
+    margin-top: 20px;
+  }
+  
+  .feature-7-content p {
+    color:#5D84AA;
+    margin-top: 5px;
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color:#334e69;
+  }
+  .feature-7-content button {
+    background-color: #4caf50;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 0.80rem 1.5rem;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 1rem;
+    margin-left: 0; /* Align button to the left */
+    font-weight: bold;
+    margin-top: 10;
+  }
+  .feature-8 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E8B8B9; /* Matching the background color */
+    padding: 1rem;
+    border-radius: 10px;
+    color:#3B546E; /* Ensure text is white for contrast */
+  }
+  
+  .feature-8 .feature-8-content {
+    max-width: 50%; /* Adjust max-width as needed */
+    margin-bottom: 5rem;
+    margin-left: 9rem;
+    margin-top: 5rem;
+    padding-left: 20px;
+  }
+  
+  .feature-8 .feature-8-content h3 {
+    color:#3B546E;
+    font-size: 2rem; /* Adjust font size as needed */
+    margin-bottom: 1rem;
+    margin: 2rem;
+    margin-left: 9rem;
+   
+  }
+  
+  .feature-8 .feature-8-content p {
+    font-size: 1.2em; /* Adjust font size as needed */
+    line-height: 2;
+    margin-top: 2rem;
+    margin-left: 9rem;
+  }
+  
+  .feature-8 img {
+    width: 21rem; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 3rem;
+    border-radius: 10px;
+    margin-bottom: 7rem;
+    
+    margin-right: 23rem; /* Add margin to separate text and image */
+    order: 2; /* Ensure the image is positioned after the text */
+  }
+  .feature-9 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: auto;
+    background-color: #E89A9B /* Background color for features section */
+  }
+  
+  .feature-9 img {
+    display: flex;
+    align-items: flex-start;
+    justify-items: flex-start;
+    width: 20rem;
+    height: 70%;
+    padding: 5px;
+    margin-top: 6rem;
+    margin-left: 25rem;
+    margin-bottom: 2rem;
+   
+    box-shadow: 0px 0px 0px 9 rgba(187, 184, 184, 0);
+  }
+  
+  .feature-9-content {
+    max-width: 800px;
+    margin-left: 4rem;
+    margin-top: 6rem;
+    color:#2e465e;
+  }
+  
+  .feature-9-content h3 {
+    font-size: 2rem;
+    justify-items: left;
+    
+    margin-top: 20px;
+  }
+  
+  .feature-9 {
+    color:#5D84AA;
+    margin-top: 5px;
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color:#334e69;
+  }
+  .feature-9-content button {
+    background-color: #4caf50;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 0.80rem 1.5rem;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 1rem;
+    margin-left: 0; /* Align button to the left */
+    font-weight: bold;
+    margin-top: 10;
+  }
+  .feature-10 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #EDE3D2; /* Matching the background color */
+    padding: 1rem;
+    border-radius: 10px;
+    color:#3B546E; /* Ensure text is white for contrast */
+  }
+  
+  .feature-10 .feature-10-content {
+    max-width: 50%; /* Adjust max-width as needed */
+    margin-bottom: 5rem;
+    margin-left: 9rem;
+    margin-top: 5rem;
+    padding-left: 20px;
+  }
+  
+  .feature-10 .feature-10-content h3 {
+    color:#3B546E;
+    font-size: 2rem; /* Adjust font size as needed */
+    margin-bottom: 1rem;
+    margin: 2rem;
+    margin-left: 9rem;
+   
+  }
+  
+  .feature-10 .feature-10-content p {
+    font-size: 1.2em; /* Adjust font size as needed */
+    line-height: 2;
+    margin-top: 2rem;
+    margin-left: 9rem;
+  }
+  
+  .feature-10 img {
+    width: 21rem; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 6rem;
+    border-radius: 10px;
+    margin-bottom: 7rem;
+    
+    margin-right: 23rem; /* Add margin to separate text and image */
+    order: 2; /* Ensure the image is positioned after the text */
+  }
+  .feature-11 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: auto;
+    background-color: #FEECB2 /* Background color for features section */
+  }
+  
+  .feature-11 img {
+    display: flex;
+    align-items: flex-start;
+    justify-items: flex-start;
+    width: 20rem;
+    height: 70%;
+    padding: 5px;
+    margin-top: 6rem;
+    margin-left: 25rem;
+    margin-bottom: 2rem;
+   
+    box-shadow: 0px 0px 0px 9 rgba(187, 184, 184, 0);
+  }
+  
+  .feature-11-content {
+    max-width: 800px;
+    margin-left: 4rem;
+    margin-top: 8rem;
+    color:#2e465e;
+  }
+  
+  .feature-11-content h3 {
+    font-size: 2rem;
+    justify-items: left;
+    
+    margin-top: 20px;
+  }
+  
+  .feature-11 {
+    color:#5D84AA;
+    margin-top: 5px;
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color:#334e69;
+  }
+  .feature-11-content button {
+    background-color: #4caf50;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 0.80rem 1.5rem;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 1rem;
+    margin-left: 0; /* Align button to the left */
+    font-weight: bold;
+    margin-top: 10;
+  }
+  .feature-12 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F0F9E9; /* Matching the background color */
+    padding: 1rem;
+    border-radius: 10px;
+    color:#3B546E; /* Ensure text is white for contrast */
+  }
+  
+  .feature-12 .feature-12-content {
+    max-width: 50%; /* Adjust max-width as needed */
+    margin-bottom: 5rem;
+    margin-left: 9rem;
+    margin-top: 5rem;
+    padding-left: 20px;
+  }
+  
+  .feature-12 .feature-12-content h3 {
+    color:#3B546E;
+    font-size: 2rem; /* Adjust font size as needed */
+    margin-bottom: 1rem;
+    margin: 2rem;
+    margin-left: 9rem;
+   
+  }
+  
+  .feature-12 .feature-12-content p {
+    font-size: 1.2em; /* Adjust font size as needed */
+    line-height: 2;
+    margin-top: 2rem;
+    margin-left: 9rem;
+  }
+  
+  .feature-12 img {
+    width: 23rem; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 6rem;
+    border-radius: 10px;
+    margin-bottom: 7rem;
+    
+    margin-right: 23rem; /* Add margin to separate text and image */
+    order: 2; /* Ensure the image is positioned after the text */
+  }
+  .modules {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 10rem;
+    margin-top: 15px;
+    grid-column: -19px;
+    margin-left: 9rem;
+    cursor: pointer;
+
+}
+
+.module {
+    background-color: #4a4a4a;
+    width: 20rem;
+    height: 8rem;
+    color: white;
+    padding-top: 15%;
+    padding-left: 25px;
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: 500;
+    align-items: start;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.module:hover {
+    background-color: #333;
+}
+
+.feature-13 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: auto;
+  background-color: #8CFF95;
+  border-radius: 8px;
+  padding: 40px;
+
+}
+.feature-13-heading{
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  margin-top: 5rem;
+  margin-left: 240px;
+  
+}
+
+.image-section {
+  text-align: center;
+}
+
+.image-section h2 {
+  color: #464f75;
+  margin-left: 7rem;
+}
+
+.image-section img {
+ display: flex;
+    align-items: flex-start;
+    justify-items: flex-start;
+    width: 18rem;
+    height: 70%;
+    padding: 1px;
+    margin-top:5pxpx;
+    margin-left: 25rem;
+    margin-bottom: 2rem;
+    margin-left: 350px;
+   
+    box-shadow: 0px 0px 0px 9 rgba(187, 184, 184, 0);
+  }
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-right: 50rem;
+  margin-left: 8rem;
+  
+}
+
+.form-section label {
+  color: #333;
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+.form-section input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 4rem;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 1rem;
+}
+
+.form-section button {
+  margin-top: 20px;
+  padding: 2px;
+  width: 16rem;
+  height: 3.5rem;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-section button:hover {
+  background-color: #45a049;
+}
+
+
+footer {
+  background-color: #f0f0f0;
+  padding: 20px 0;
+  color: #333;
+
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  max-width: auto;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.footer-logo {
+  max-width: 20%;
+  text-align: left;
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
+
+.footer-logo img {
+  max-width: 18rem;
+  margin-bottom: 10px;
+  margin-left: 28px;
+}
+
+.footer-logo p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 3;
+  color: #555;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.footer-links {
+  display: flex;
+  margin-left: 70px;
+  justify-content: space-between;
+  flex-grow: 2;
+  max-width: 80%;
+  margin-top: 30px;
+font-weight: 100;
+font-size: 1rem;
+  
+  margin-right: 20rem;
+  height :12rem;
+}
+
+.footer-section {
+  margin-right: 2px;
+  font-size: 1.1rem;
+}
+
+.footer-section h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #333;
+}
+.fa{
+  color:black;
+  margin-right: 10px;
+  margin-right: 10px;
+}
+
+.footer-section ul {
+  margin-top: 1rem;
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+ 
+  margin-bottom: 5px;
+  color:black;
+  margin-top: 1rem;
+}
+
+.footer-section ul li a {
+  color: #000000;
+  text-decoration: none;
+  line-height: 2;
+  margin-top: 1rem;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: none;
+  color:black;
+}
+
+.footer-social a {
+  display: inline-block;
+  margin-right: 10px;
+  color:black;
+  margin-top: 15px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.footer-social img {
+  width: 25px;
+  height: 25px;
+  color:black
+}
